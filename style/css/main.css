@@ -1,0 +1,22 @@
+/*
+    Tea To You's Main style sheet
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+.content {
+    padding: 10px;
+}
+
+section[id] {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+dt {
+    margin-top: 15px;
+    font-weight: bold;
+}

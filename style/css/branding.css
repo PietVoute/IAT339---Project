@@ -1,0 +1,47 @@
+.demo-soft-soil::after {
+    display: inline-block;
+    content: "";
+    background-color: #49362f;
+    width: 2em;
+    height: 1.1em;
+    margin-left: 10px;
+}
+
+.demo-budding-leaves::after {
+    display: inline-block;
+    content: "";
+    background-color: #177832;
+    width: 2em;
+    height: 1.1em;
+    margin-left: 10px;
+}
+
+.demo-light-text {
+    padding: 5px;
+    color: #FFFFFF;
+    background-color: #49362f;
+}
+
+.demo-dark-text {
+    padding: 5px;
+    color: #080808;
+    background-color: #AAA;
+}
+
+.demo-mid-text {
+    padding: 5px;
+    color: #A1A1A1;
+    background-color: #080808;
+}
+
+.demo-brand-image-wrapper::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.demo-brand-image {
+    float: left;
+    max-width: 500px;
+    max-height: 500px;
+}

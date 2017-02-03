@@ -1,0 +1,68 @@
+/*
+    Typography based styles
+*/
+
+body {
+    font-family: "Quicksand", sans-serif;
+	font-weight: normal;
+	font-style: normal;	
+    font-size: 1.2em;
+}
+
+p.lead {
+    font-family: "Quicksand", sans-serif;
+	font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    color: #515151;
+}
+
+
+
+.muted {
+    font-weight: lighter;
+}
+
+h1,
+h2 {
+    font-family: "Calligraffiti", sans-serif;
+}
+
+h1 {
+    font-size: 3.2em;
+    padding-top: 15px;
+    padding-bottom: 13px;
+}
+h2 {
+    font-size: 2.5em;
+}
+h3 {
+    font-size: 1.5em;
+}
+h4 {
+    font-size: 1.1em;
+}
+h5 {
+    font-size: 1em;
+}
+
+.code,
+code {
+    font-family: monospace;
+}
+
+
+a {
+    color: #177832;
+}
+a:hover {
+    color: #41b962;
+}
+a:active {
+    color: #1c5a2d;
+}
+a:visited {
+    color: #49362f;
+}
