@@ -10,7 +10,8 @@
 .demo-budding-leaves::after {
     display: inline-block;
     content: "";
-    background-color: #177832;
+     /*background-color: #177832; */
+    background-color: #36a15b;
     width: 2em;
     height: 1.1em;
     margin-left: 10px;
