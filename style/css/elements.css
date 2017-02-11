@@ -1,4 +1,78 @@
 /*
+	--~~== Footer ==~~--
+*/
+.content {
+	position: relative;
+	min-height: calc(90vh - 11em);
+	padding: 10px;
+}
+footer {
+	background-color: #03324F;
+	position: absolute;
+	height: 10vh;
+	left: 0;
+	right: 0;
+	padding: 0.5em;
+	color: #FFF;
+}
+footer > nav {
+	display: flex;
+	width: 40%;
+	height: 100%;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+footer > nav > a{
+	color: #FFF;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px;
+	cursor: pointer;
+}
+footer > nav > a:visited {
+    color: #FFF;
+}
+footer > nav > a:focus,
+footer > nav > a:hover {
+    color: #999;
+}
+footer > nav > a:active {
+    color: #999;
+}
+
+/*
+	--~~== Text Section ==~~--
+*/
+section.text {
+	width: 80%;
+	margin: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	background: rgba(0,0,0,0.5);
+	box-shadow: 0 0 10px 5px rgba(0,0,0,0.5);
+	color: #FFF;
+}
+section.text a {
+    color: #FFF;
+    text-decoration: underline;
+    cursor: pointer;
+}
+section.text a:visited {
+    color: #FFF;
+}
+section.text a:focus,
+section.text a:hover {
+    color: #DDD;
+}
+section.text a:active {
+    color: #FFF;
+}
+section .lead {
+	color: #FFF;
+}
+
+/*
 	--~~== Feature Carousel ==~~--
 */
 .carousel {
@@ -6,6 +80,10 @@
 	border: solid #727272 1px;
 	border-radius: 5px;
 	overflow: hidden;
+	width: 80%;
+	height: 20vh;
+	margin-left: auto;
+	margin-right: auto;
 }
 .carousel::after {
 	content: "";
@@ -19,21 +97,26 @@
 }
 .carousel .card {
 	padding: 10px;
+	height: 100%;
+	background-color: rgba(255,255,255,0.8);
 }
 .carousel .card > h3 {
 	margin: 6px;
 	margin-top: 10px;
+	height: 1em;
 }
 .carousel .card > .flex {
 	display: flex;
-	align-items: flex-end;
+	align-items: center;
 	width: 100%;
+	height: calc(100% - 1em - 20px); /* Full size of parent, minus header (which is 1em), minus padding */
 }
 .carousel .card > .flex > * {
 	margin: 10px;
 }
 .carousel .card > .flex .action {
 	flex-shrink: 0;
+	align-self: flex-end;
 }
 
 /*
@@ -44,7 +127,8 @@
 	display: block;
 	border: solid 1px #999;
 	border-radius: 5px;
-	box-shadow: 0 0 3px 0 rgba(0,0,0,0.3) inset;
+	box-shadow: 0 0 3px 0 rgba(0,0,0,0.4) inset;
+	background: rgba(0,0,0,0.3);
 	margin-left: auto;
 	margin-right: auto;
 	padding: 15px;
@@ -60,6 +144,8 @@
 	max-width: 262px; /* 250px for the image, 10 for padding, 2 for pix */
 	margin: 10px;
 	box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+	background: #FFF;
+	border-radius: 5px;
 	cursor: pointer;
 	transition: box-shadow 250ms;
 
@@ -163,12 +249,12 @@ input[type=text] {
 /*
 	--~~== Main Navigation ==~~--
 */
-nav {
+header nav {
 	display: block;
 	position: relative;
 }
 
-nav > a {
+header nav > a {
 	padding: 6px;
 	position: relative;
 	text-decoration: none;
@@ -176,7 +262,7 @@ nav > a {
 	color: #004D7F;
 }
 
-nav > a::before {
+header nav > a::before {
 	content: "";
 	display: inline-block;
 	position: absolute;
@@ -188,7 +274,7 @@ nav > a::before {
 	background-color: #004D7F;
 }
 
-nav > a:first-child::before {
+header nav > a:first-child::before {
 	content: none;
 }
 
@@ -197,8 +283,11 @@ nav > a:first-child::before {
 */
 header {
 	padding: 10px;
+	display: block;
+	position: relative;
 	background: #B20F0E;
 	color: #FFF;
+	height: 11em;
 }
 
 /* - Typeography */
@@ -221,7 +310,10 @@ header a:visited {
 }
 /* - Sub Elements */
 header nav {
-	margin: -10px; /* Cancel out padding of the header so it's flush with edges */
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
 	background-color: rgba(0,0,0,0.3);
 }
 header nav::after {
@@ -237,6 +329,7 @@ header nav > a {
 	cursor: pointer;
 	background: none;
 }
+header nav > a:focus,
 header nav > a:hover {
 	background-color: rgba(0,0,0,0.2);
 }
@@ -265,6 +358,7 @@ nav.toc a {
 	text-decoration: none;
 	display: block;
 }
+nav.toc a:focus,
 nav.toc a:hover{
 	color: #999;
 }

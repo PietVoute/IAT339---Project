@@ -6,8 +6,20 @@
     box-sizing: border-box;
 }
 
-.content {
-    padding: 10px;
+body {
+    background: none;
+}
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background-image: url("../../media/img/Tzaneen_tea_plants.jpg");
+    background-position: fixed;
+    background-size: cover;
 }
 
 section[id] {
