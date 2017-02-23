@@ -1,0 +1,34 @@
+
+--~~== Images ==~~--
+
+Vietnameselotustea.jpg
+By Badagnani (Own work) [GFDL (http://www.gnu.org/copyleft/fdl.html) or CC BY 3.0 (http://creativecommons.org/licenses/by/3.0)], via Wikimedia Commons
+
+Osmanthusblacktealeaves.jpg
+By Badagnani (Own work) [GFDL (http://www.gnu.org/copyleft/fdl.html) or CC BY 3.0 (http://creativecommons.org/licenses/by/3.0)], via Wikimedia Commons
+
+Muntthee.JPG
+By Onderwijsgek (Own work) [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons
+
+Tzaneen_tea_plants.jpg
+By Rob Hooft (Own work) [GFDL (http://www.gnu.org/copyleft/fdl.html) or CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/)], via Wikimedia Commons
+
+Rooibos_(Aspalathus_linearis).jpg
+By Winfried Bruenken (Amrum) (Own work) [CC BY-SA 2.5 (http://creativecommons.org/licenses/by-sa/2.5)], via Wikimedia Commons
+
+--~~== Fonts ==~~--
+
+Quicksand
+Copyright (c) 2011, Andrew Paglinawan (www.andrewpaglinawan.com andrew.paglinawan@gmail.com), with Reserved Font Name "Quicksand".
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
+
+Merienda
+Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name 'Merienda'
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
+
+dejavu
+???
