@@ -30,5 +30,8 @@ Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font N
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
 
-dejavu
-???
+Dejavu
+Fonts are (c) Bitstream (see below). DejaVu changes are in public domain.
+Glyphs imported from Arev fonts are (c) Tavmjong Bah (see below)
+Copyright (c) 2006 by Tavmjong Bah. All Rights Reserved.
+https://www.fontsquirrel.com/license/dejavu-sans-mono
