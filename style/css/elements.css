@@ -350,6 +350,54 @@ body {
 	--~~== End Interactive Elements ==~~--
 */
 
+/* 
+	Order form
+*/
+.order-form {
+	width: 50%;
+	text-align:center;
+	padding: 10px;
+	display:inline-block
+}
+
+.order-form-row {
+	width: 100%;
+	float:left;
+	padding: 10px;
+	text-align:left;
+}
+
+.order-text-input-container {
+	float:left;
+	text-align:center;
+	width: 70%;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.order-select-container {
+	float:right;
+	width:70%;
+	text-align:center;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.order-text-input {
+	width: 100%;
+	text-align:center;
+}
+
+.order-label {
+	float:left;
+	width: 30%;
+}
+
+.order-select {
+	text-align:center;
+	float:right;
+	width: 50%;
+}
 /*
 	--~~== Footer =~~--
 */

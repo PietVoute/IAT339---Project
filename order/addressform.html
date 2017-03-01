@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tea To You</title>
+		<meta charset="utf-8">
+		<meta name=viewport content="width=device-width, initial-scale=1">
+		
+		<!-- Style Sheets -->
+		<!-- Reset -->
+		<link href="../style/css/normalize.css" rel="stylesheet">
+		<!-- Fonts -->
+		<link href="../style/css/fonts.css" rel="stylesheet">
+		<!-- Overall -->
+		<link href="../style/css/main.css" rel="stylesheet">
+		<!-- Typography -->
+		<link href="../style/css/typography.css" rel="stylesheet">
+		<!-- Whole Elements -->
+		<link href="../style/css/elements.css" rel="stylesheet">
+		<!-- /Style Sheets -->
+
+	</head>
+	<body>
+        <div class="content">
+			<header class="frosted">
+				<h1><a href="#">Tea To You</a></h1>
+				<nav>
+					<div class="center-float-container">
+						<div class="center-float-content">
+							<a href="../index.html">Home</a>
+							<a href="#">Create</a>
+							<a href="../order/index.html">Order</a>
+						</div>
+					</div>
+				</nav>
+			</header>
+            <section class="carousel frosted">
+                <div class="card">
+                    <h3>Complete Your Order</h3>
+                    <div class="flex">
+                        <p>Fill out the information below to complete your order</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="text frosted">
+					<form class="order-form" action="orderform.html">
+					  	<legend>Payment</legend>
+
+				    	<div class="order-form-row">
+				        	<label class="order-label" for="name">Name</label>
+					        <div class="order-text-input-container">
+					        	<input type="text" class="order-text-input" name="name" id="name" placeholder="Name">
+					        </div>
+				    	</div>
+
+				    	<div class="order-form-row">
+					        <label class="order-label" for="address1">Address Line 1</label>
+					        <div class="order-text-input-container">
+					        	<input type="text" class="order-text-input" name="address1" id="address1" placeholder="Address Line 1">
+					        </div>
+				    	</div>
+
+				    	<div class="order-form-row">
+					        <label class="order-label" for="address2">Address Line 2</label>
+					        <div class="order-text-input-container">
+					        	<input type="text" class="order-text-input" name="address2" id="address2" placeholder="Address Line 2">
+					        </div>
+				    	</div>
+
+					    <div class="order-form-row">
+					        <label class="order-label"></label>
+
+				            <select class="order-select" name="province">
+				                <option>British Columbia</option>
+				                <option>Alberta</option>
+				                <option>Saskatchewan</option>
+				                <option>Manitoba</option>
+				                <option>Ontario</option>
+				                <option>Quebec</option>
+				                <option>Newfoundland</option>
+				                <option>Nova Scotia</option>
+				                <option>New Brunswick</option>
+				                <option>Prince Edward Island</option>
+				                <option>Yukon</option>
+				                <option>Northwest Terretories</option>
+				                <options>Nunavut</option>
+				            </select>
+
+					    </div>
+
+				        <div class="order-form-row">
+				          <button type="submit">Continue to Payment</button>
+				        </div>
+					</form>
+					
+            </section>
+        </div>
+		<footer class="frosted">
+			<nav>
+				<div class="center-float-container">
+					<div class="center-float-content">
+						<a href="#">Home</a>
+						<a href="about.html">About</a>
+						<a href="contact.html">Contact</a>
+						<a href="sitemap.html">Site Map</a>
+						<a href="style/guide.html">Style Guide</a>
+						<a href="../media/citations.html">Citations</a>
+					</div>
+				</div>
+			</nav>
+		</footer>
+	</body>
+</html>
