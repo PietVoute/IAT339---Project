@@ -398,6 +398,11 @@ body {
 	float:right;
 	width: 50%;
 }
+.order-confirm {
+	float:right;
+}
+/* 
+	Order form end */
 /*
 	--~~== Footer =~~--
 */
