@@ -296,27 +296,31 @@ body {
 		border-radius: 5px;
 		padding: 10px;
 		/*color: #177832;*/
-		color: #B20F0E;
-		background: rgba(255,255,255,0);
+		color: #FFF;
+		background: #B20F0E;
 		text-decoration: none;
 		transition: background-color 200ms, color 200ms;
 		cursor: pointer;
 		font-family: "Quicksand", sans-serif;
 	}
 
-	.btn:active {
-		background-color: #B20F0E;
-	}
 
 	.btn:hover {
 		/*background-color: #177832;*/
-		background-color: #B20F0E;
+		background-color: #c31e1d;
 		color: #FFF;
 	}
+	.btn:active {
+		background-color: #6E1111;
+		border-color: #B20F0E;
+	}
 
+	.btn.nav {
+		text-decoration: none;
+	}
 	.btn.nav:visited {
 		/*color: #177832;*/
-		color: #B20F0E;
+		color: #FFF;
 	}
 
 	.btn.nav:visited:hover {

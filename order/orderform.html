@@ -27,8 +27,8 @@
 					<div class="center-float-container">
 						<div class="center-float-content">
 							<a href="../index.html">Home</a>
-							<a href="#">Create</a>
-							<a href="../order/index.html">Order</a>
+							<a href="../create/index.html">Create</a>
+							<a href="index.html">Order</a>
 						</div>
 					</div>
 				</nav>
@@ -64,7 +64,7 @@
 					        <label class="order-label" for="expiry-month">Expiration Date</label>
 
 					        	<div class="order-select-container">
-						            <select class="order-select" name="expiry-month" id="expiry-month">
+						            <!-- <select class="order-select" name="expiry-month" id="expiry-month">
 						            	<option>Month</option>
 						                <option>Jan (01)</option>
 						                <option>Feb (02)</option>
@@ -89,7 +89,8 @@
 						                <option>2023</option>
 						                <option>2024</option>
 						                <option>2025</option>
-						            </select>
+						            </select> -->
+									<input type="text" class="order-text-input" name="expiry" id="expiry" placeholder="MM/YY">
 					            </div>
 					    </div>
 
@@ -101,7 +102,7 @@
 					    </div>
 
 				        <div class="order-form-row">
-				          <button class="order-confirm" type="submit">Pay Now</button>
+				          <button class="btn order-confirm" type="submit">Pay Now</button>
 				        </div>
 					</form>
 
