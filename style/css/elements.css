@@ -329,7 +329,10 @@ body {
 /*
 	--~~== End Interactive Elements ==~~--
 */
-
+/* misc images */
+.img-large {
+	width:100%;
+}
 /* 
 	Order form
 */
