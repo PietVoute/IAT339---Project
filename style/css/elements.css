@@ -6,7 +6,7 @@ header {
 	text-align: center;
 	position: relative;
 	border-bottom: solid 2px #6E1111;
-	background-color: rgba(142,11,11,0.7);
+	background-color: rgba(178, 15, 14,0.7);
 }
 
 header h1 {
@@ -22,6 +22,9 @@ header h1 a,
 header h1 a:visited {
 	color: #FFF;
 	text-decoration: none;
+}
+header h1 a:hover {
+	color: #EEE;
 }
 
 header nav {
@@ -40,7 +43,7 @@ header nav::after {
 }
 
 header nav a {
-	float: left;
+	display: inline-block;
 	padding: 8px;
 	margin-left: 10px;
 	margin-right: 10px;
@@ -59,23 +62,6 @@ header nav a:active {
 
 /*
 	--~~== End Header ==~~--
-*/
-
-/*
-	Center a group of floats
-*/
-.center-float-container {
-	float: left;
-	position: relative;
-	left: 50%;
-}
-.center-float-content {
-	float: left;
-	position: relative;
-	left: -50%;
-}
-/*
-	End float centering
 */
 
 .content {
@@ -100,54 +86,41 @@ body {
 }
 
 /*
-	--~~== Carousel ==~~--
+	--~~== Card ==~~--
 */
-	.carousel {
-		position: relative;
-		border: solid #727272 1px;
-		border-radius: 5px;
-		overflow: hidden;
-		width: 80%;
-		height: 20vh;
-		margin: 10px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	.carousel::after {
-		content: "";
-		display: block;
-		position: absolute;
-		height: 2px;
-		bottom: -0px;
-		left: 0px;
-		right: 50%;
-		background-color: #B20F0E;
-	}
-	.carousel .card {
-		padding: 10px;
-		height: 100%;
-		background-color: rgba(255,255,255,0.8);
-	}
-	.carousel .card > h3 {
-		margin: 6px;
-		margin-top: 10px;
-		height: 1em;
-	}
-	.carousel .card > .flex {
-		display: flex;
-		align-items: center;
-		width: 100%;
-		height: calc(100% - 1em - 20px); /* Full size of parent, minus header (which is 1em), minus padding */
-	}
-	.carousel .card > .flex > * {
-		margin: 10px;
-	}
-	.carousel .card > .flex .action {
-		flex-shrink: 0;
-		align-self: flex-end;
-	}
+.card {
+	position: relative;
+	width: 70%;
+	border: solid #727272 1px;
+	border-radius: 5px;
+	margin: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(255,255,255,0.7);
+	padding: 20px;
+	padding-top: 15px;
+}
+.card::after {
+	content: "";
+	display: block;
+	position: absolute;
+	height: 2px;
+	bottom: -0px;
+	left: 0px;
+	right: 50%;
+	background-color: #B20F0E;
+}
+.card .action {
+	text-align: right;
+	padding: 10px;
+	margin: 5px;
+}
+.card h3 {
+	margin-bottom: 10px;
+}
+
 /*
-	--~~== End Carousel ==~~--
+	--~~== End Card ==~~--
 */
 
 /*
@@ -182,7 +155,7 @@ body {
 		color: #FFF;
 	}
 	 .lead {
-		color: #FFF;
+		color: #222;
 	}
 /*
 	--~~== End Text Section ==~~--
@@ -195,7 +168,7 @@ body {
 	nav.toc .section-header {
 		font-weight: bold;
 		font-size: 1.2em;
-		color: #FFF;
+		color: #222;
 
 	}
 	nav.toc > section {
@@ -203,13 +176,16 @@ body {
 	}
 	nav.toc a {
 		padding: 3px;
-		color: #FFF;
+		color: #333;
 		text-decoration: none;
 		display: block;
 	}
+	nav.toc a::before {
+		content: "> ";
+	}
 	nav.toc a:focus,
 	nav.toc a:hover{
-		color: #CCC;
+		color: #999;
 	}
 
 /*
@@ -359,9 +335,15 @@ body {
 */
 .order-form {
 	width: 50%;
-	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 10px;
-	display:inline-block
+	display: block;
+}
+.order-form::after {
+	content: "";
+	clear:both;
+	display: block;
 }
 
 .order-form-row {
@@ -416,9 +398,10 @@ body {
 		background-color: rgba(3,50,79,0.72);
 		height: 2em;
 		padding: 5px;
+		text-align: center;
 	}
 	footer nav a {
-		float: left;
+		display: inline-block;
 	}
 	
 	footer nav a{
