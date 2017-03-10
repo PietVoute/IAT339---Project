@@ -388,7 +388,21 @@ body {
 	float:right;
 }
 /* 
-	Order form end */
+	Order form end 
+*/
+
+.sample-section {
+	margin:5rem;
+	padding-left:10rem;
+	padding-top:3rem;
+	padding-bottom:3rem;
+	background-color:white;
+	border: 5px solid #B20F0E;
+}
+.sample {
+	margin-top:30px;
+	margin-bottom:30px;
+}
 /*
 	--~~== Footer =~~--
 */
