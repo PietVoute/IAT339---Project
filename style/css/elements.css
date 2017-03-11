@@ -396,7 +396,8 @@ body {
 
 .sample-section {
 	margin:5rem;
-	padding-left:10rem;
+	padding-left:262px;
+	padding-right: 200px;
 	padding-top:3rem;
 	padding-bottom:3rem;
 	background-color:white;
